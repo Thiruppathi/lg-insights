@@ -175,7 +175,7 @@
 
     function($http) {
 
-        var baseURL = "http://insightsworkflows.mybluemix.net/";
+        var baseURL = "http://lg-insights.eu-gb.mybluemix.net/";
 
         var searchData;
 
