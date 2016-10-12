@@ -8,6 +8,9 @@
 // for more info, see: http://expressjs.com
 var express = require('express');
 
+var bodyParser = require('body-parser');
+var controllers = require("./controllers");
+
 // cfenv provides access to your Cloud Foundry environment
 // for more info, see: https://www.npmjs.com/package/cfenv
 var cfenv = require('cfenv');
@@ -17,6 +20,10 @@ var app = express();
 
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/public'));
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+controllers.init(app);
 
 // get the app environment from Cloud Foundry
 var appEnv = cfenv.getAppEnv();
