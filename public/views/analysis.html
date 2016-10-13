@@ -4,10 +4,19 @@
     <div ng-show="loading">
         <img src="/images/ajax-loader.gif" class="center-block" />
     </div>
+    <h3> <small><a href="" ng-click="changeView('details')"> <i class="fa fa-reply"></i> Home</a></small></h3>
 
-    <div class="row">
+<div class="page-header">
+  <h3>Here is our recommendation</h3>
+</div>
+
+<div class="jumbotron">
+            <img src="/images/final.png" class="center-block" />
+
+</div>
+    <!--<div class="row">
         <div class="col-md-12">
-            <h3>Analysis for {{analysis.title}} 
+            <h3>Here is our recommendation
                 <small>
                     <a href="" ng-click="toggleContent()"><span ng-show="contentVisible">Hide Content</span><span ng-show="!contentVisible">Show Content</span></a>
                     &nbsp;
@@ -18,13 +27,13 @@
         <div class="col-md-12" ng-show="contentVisible">
             <p>{{analysis.content}}</p>
         </div>
-    </div>
+    </div>-->
 
-    <div id="analysis-charts">
+    <!--<div id="analysis-charts">
         <div ng-repeat="(chartIndex, chart) in analysis.PISummary" class="analysis-chart-box">
             <h4>{{analysis.PISummary[chartIndex].name}}</h4>
             <canvas ng-attr-id="{{'analysis-chart-' + chartIndex}}" class="analysis-chart" width="120" height="120"></canvas>
         </div>
-    </div>
+    </div>-->
 
 </div>
