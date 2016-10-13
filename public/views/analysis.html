@@ -1,4 +1,3 @@
-
 <div>
 
     <div ng-show="loading">
@@ -6,15 +5,33 @@
     </div>
     <h3> <small><a href="" ng-click="changeView('details')"> <i class="fa fa-reply"></i> Home</a></small></h3>
 
-<div class="page-header">
-  <h3>Here is our recommendation</h3>
-</div>
-
-<div class="jumbotron">
+    <div class="page-header">
+        <h3>Here is our recommendation</h3>
+    </div>
+    <div class="details_content">
+        <table class="table table-striped">
+            <tr>
+                <td>Your Mortgage Amount </td>
+                <td>£250,000</td>
+            </tr>
+            <tr>
+                <td>Existing Cover </td>
+                <td>£40,000</td>
+            </tr>
+            <tr>
+                <td>Your Recommended Cover </td>
+                <td>£210,000</td>
+            </tr>
+            <tr>
+                <td>Your Decreasing Term Assurance Premium is </td>
+                <td>£43</td>
+            </tr>
+        </table>
+        <div class="jumbotron">
             <img src="/images/final.png" class="center-block" />
 
-</div>
-    <!--<div class="row">
+        </div>
+        <!--<div class="row">
         <div class="col-md-12">
             <h3>Here is our recommendation
                 <small>
@@ -29,11 +46,11 @@
         </div>
     </div>-->
 
-    <!--<div id="analysis-charts">
+        <!--<div id="analysis-charts">
         <div ng-repeat="(chartIndex, chart) in analysis.PISummary" class="analysis-chart-box">
             <h4>{{analysis.PISummary[chartIndex].name}}</h4>
             <canvas ng-attr-id="{{'analysis-chart-' + chartIndex}}" class="analysis-chart" width="120" height="120"></canvas>
         </div>
     </div>-->
 
-</div>
+    </div>
