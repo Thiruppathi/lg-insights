@@ -1,0 +1,167 @@
+<div>
+
+    <h3>Search Result <small><a href="" ng-click="changeView('search')"> <i class="fa fa-reply"></i> Back to Search</a></small></h3>
+
+    <div ng-show="loading">
+        <img src="/images/ajax-loader.gif" class="center-block" />
+    </div>
+
+    <div class="details_title">
+        <h2>{{details.fullName}}</h3>
+            <hr>
+    </div>
+    <div class="details_content">
+        <table class="table table-striped">
+            <tr>
+                <td>Title </td>
+                <td>{{details.Title}}</td>
+            </tr>
+            <tr>
+                <td>First Name </td>
+                <td>{{details.UserFirstName}}</td>
+            </tr>
+            <tr>
+                <td>Surname </td>
+                <td>{{details.UserSurname}}</td>
+            </tr>
+            <tr>
+                <td>Date of Birth </td>
+                <td>{{details.UserDoB}}</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>{{details.Gender}}</td>
+            </tr>
+            <tr>
+                <td>Current Address </td>
+                <td>{{details.CurrentAddress}}</td>
+            </tr>
+            <tr>
+                <td>Current City </td>
+                <td>{{details.CurrentCity}}</td>
+            </tr>
+            <tr>
+                <td>Current Region </td>
+                <td>{{details.CurrentRegion}}</td>
+            </tr>
+            <tr>
+                <td>Current Postcode </td>
+                <td>{{details.CurrentPostcode}}</td>
+            </tr>
+            <tr>
+                <td>Telephone Mobile </td>
+                <td>{{details.TelephoneMobile}}</td>
+            </tr>
+            <tr>
+                <td>Telephone Home </td>
+                <td>{{details.TelephoneHome}}</td>
+            </tr>
+            <tr>
+                <td>Email </td>
+                <td>{{details.Email}}</td>
+            </tr>
+            <tr>
+                <td>Is UK Resident? </td>
+                <td>{{details.UKResident}}</td>
+            </tr>
+            <tr>
+                <td>Salary </td>
+                <td>{{details.Salary}}</td>
+            </tr>
+            <tr>
+                <td>Mortgage Term </td>
+                <td>{{details.MortgageTerm}}</td>
+            </tr>
+            <tr>
+                <td>Mortgage Amount </td>
+                <td>{{details.MortgageAmount}}</td>
+            </tr>
+            <tr>
+                <td>Mortgage Type </td>
+                <td>{{details.MortgageType}}</td>
+            </tr>
+            <tr>
+                <td>Residential Status </td>
+                <td>{{details.ResidentialStatus}}</td>
+            </tr>
+            <tr>
+                <td>Nationality </td>
+                <td>{{details.Nationality}}</td>
+            </tr>
+            <tr>
+                <td>Marital Status</td>
+                <td>{{details.MaritalStatus}}</td>
+            </tr>
+            <tr>
+                <td>Seller ID </td>
+                <td>{{details.SellerID}}</td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+
+<script type="text/javascript">
+
+function yesnoCheck() {
+    if (document.getElementById('el-yes').checked) {
+        document.getElementById('ifYes').style.display = 'block';
+    }
+    else document.getElementById('ifYes').style.display = 'none';
+
+}
+
+</script>
+
+<style>
+    .field {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    label {
+        display: block;
+    }
+</style>
+<form>
+    <div class="field">
+        <label>Are you a smoker or have you used any nicotine replacement products in the last 12 months:</label>
+        <input type="radio" name="smoker" value="Yes" />Yes
+        <input type="radio" name="smoker" value="No" />No
+    </div>
+    <div class="field">
+        <label>Do you have death in service cover:</label>
+        <input type="radio" name="dis" value="Yes" />Yes
+        <input type="radio" name="dis" value="No" />No
+    </div>
+    <div class="field">
+        <label>Do you have any existing life cover in place:</label>
+        <input type="radio" id="el-yes" name="existingcover" value="Yes" onclick="javascript:yesnoCheck();" />Yes
+        <input type="radio" id="el-no" name="existingcover" value="No" onclick="javascript:yesnoCheck();" />No
+    </div>
+    <div id="ifYes" style="display:none">
+        <div class="field tip" data-tip="If you are taking out a mortgage protection plan to help pay off an outstanding mortgage, you will need to choose between Level or Decreasing Cover.
+<ul><li>Level Cover provides the same lump sum throughout the length of your policy.</li>
+<li>For Decreasing Cover, the amount of cover reduces roughly in line with the way a repayment mortgage decreases. Your premiums will remain the same during the length of your policy unless you make any changes.</li></ul>">
+            <label>If yes, is this for the level life or decreasing life cover:</label>
+            <input type="radio" name="typeofexisting" value="levellife" />Level Life Cover
+            <input type="radio" name="typeofexisting" value="decreasinglife" />Decreasing Life Cover
+        </div>
+        <div class="field">
+            <label>How much (insert either level or decreasing) cover do you have in place:</label>
+            <input type="text" size="10" name="amountofexistingcover" />
+        </div>
+    </div>
+    <!--<div class="field">
+        <input type="button" type="submit" name="getrecommendations" value="Get Recommendations" />
+    </div>-->
+    <button class="btn btn-lg btn-primary" ng-click="changeView('analysis', true)" ng-disabled="analyzing">Get Recommendations</button>
+
+    <img ng-show="analyzing" src="/images/watson.gif" alt="Analyzing" />
+</form>
+<script>
+// $(document).ready(function() {
+//      $('.tip').tipr();
+// });
+</script>
