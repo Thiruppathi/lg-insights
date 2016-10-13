@@ -23,7 +23,7 @@
     <div class="results_container" ng-show="searchResults.length">
         <div class="search_result" ng-repeat="(listItemIndex, listItem) in searchResults" ng-click="changeView('details', listItem.id)">
             <span class="search_result_number">{{listItemIndex + 1}}</span>
-            <span class="search_result_title">{{listItem.title}}</span>
+            <span class="search_result_title">{{listItem.UserFirstName + ' '+listItem.UserSurname}}</span>
         </div>
     </div>
 

@@ -47,7 +47,11 @@
                 $scope.searchData = function () {
                     DataService.search($scope.searchQuery, function (data) {
                         $timeout(function () {
-                            $scope.searchResults = JSON.parse(data);
+                            _data = data.map(function(x) {
+                                return JSON.parse(x);
+                            })
+                            $scope.searchResults = _data;
+                            console.log($scope.searchResults);
                         });
                     });
                 };
