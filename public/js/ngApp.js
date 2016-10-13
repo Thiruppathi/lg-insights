@@ -57,8 +57,7 @@
                 };
 
                 $scope.changeView = function (pageName, id) {
-                    id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'string' ? id : '';
-                    id = typeof id === 'number' ? id.toString() : id;
+                    id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'number' ? id : '';
                     $location.path('/' + pageName + '/' + id);
                 };
 
