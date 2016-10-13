@@ -7,14 +7,16 @@
     </div>
 
     <div class="details_title">
-        <h3>{{details.id}}</h3>
+        <h2>{{details.fullName}}</h3>
+        <h3>{{details.MaritalStatus}}</h2>
+        <h4>{{details.id}}</h4>
         <hr>
     </div>
     <div class="details_content">
-        <p>{{details.title}}</p>
+        <p>{{details.Email}}</p>
         <button class="btn btn-lg btn-primary" ng-click="analyzeText()" ng-disabled="analyzing">Analyze</button>
-      
-        <img ng-show="analyzing" src="/images/watson.gif" alt="Analyzing"/>
+
+        <img ng-show="analyzing" src="/images/watson.gif" alt="Analyzing" />
     </div>
 
 </div>

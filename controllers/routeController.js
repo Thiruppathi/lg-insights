@@ -43,7 +43,7 @@
     var authorData = require('./../data/lgData.json');
 
     function fetchAuthor(id) {
-             authorData = require('./../data/lgData.json');
+        authorData = require('./../data/lgData.json');
 
         for (var i = 0; i < authorData.length; i++) {
             if (authorData[i]._id == id) {
@@ -66,12 +66,26 @@
             console.log('Author', author);
             res.json({
                 details: {
-                    id: author._id,
-                    title: author.UserFirstName + ' ' + author.UserSurname,
-                    content: author.MaritalStatus
+                    "id": author._id,
+                    "fullName": author.UserFirstName + ' ' + author.UserSurname,
+                    "MaritalStatus": author.MaritalStatus,
+                    "Email": author.Email
                 }
             });
         });
+
+
+        // app.get('/details/:id', function (req, res) {
+        //     var author = fetchAuthor(req.params.id);
+        //     console.log('Author', author);
+        //     res.json({
+        //         details: {
+        //             "id": author._id,
+        //             "fullName": author.UserFirstName + ' ' + author.UserSurname,
+        //             "MaritalStatus": author.MaritalStatus
+        //         }
+        //     });
+        // });
 
     };
 

@@ -20,7 +20,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1612080438499"
 	},
 	{
@@ -44,7 +44,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1689121866099"
 	},
 	{
@@ -68,7 +68,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1667071575499"
 	},
 	{
@@ -92,7 +92,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1627122668199"
 	},
 	{
@@ -116,7 +116,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1625022725299"
 	},
 	{
@@ -140,7 +140,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Asian",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1682032845899"
 	},
 	{
@@ -164,7 +164,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1602030193299"
 	},
 	{
@@ -188,7 +188,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1647101503099"
 	},
 	{
@@ -212,7 +212,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1697111264799"
 	},
 	{
@@ -236,7 +236,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1602112218399"
 	},
 	{
@@ -260,7 +260,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1677070335799"
 	},
 	{
@@ -284,7 +284,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1638031078099"
 	},
 	{
@@ -308,7 +308,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1615070554999"
 	},
 	{
@@ -332,7 +332,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1600091563799"
 	},
 	{
@@ -356,7 +356,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1611052226199"
 	},
 	{
@@ -380,7 +380,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1699040818199"
 	},
 	{
@@ -404,7 +404,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1656070680799"
 	},
 	{
@@ -428,7 +428,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1619030490599"
 	},
 	{
@@ -452,7 +452,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1689081239299"
 	},
 	{
@@ -476,7 +476,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1614042576299"
 	},
 	{
@@ -500,7 +500,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1642010359899"
 	},
 	{
@@ -524,7 +524,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1625042153899"
 	},
 	{
@@ -548,7 +548,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1663112003099"
 	},
 	{
@@ -572,7 +572,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1644041345799"
 	},
 	{
@@ -596,7 +596,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1655092160599"
 	},
 	{
@@ -620,7 +620,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1615012906599"
 	},
 	{
@@ -644,7 +644,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Asian",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1659053081199"
 	},
 	{
@@ -668,7 +668,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1659061842399"
 	},
 	{
@@ -692,7 +692,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1604112572799"
 	},
 	{
@@ -716,7 +716,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1644110972199"
 	},
 	{
@@ -740,7 +740,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1690042810899"
 	},
 	{
@@ -764,7 +764,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1602052260299"
 	},
 	{
@@ -788,7 +788,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1639062569599"
 	},
 	{
@@ -812,7 +812,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1670062247699"
 	},
 	{
@@ -836,7 +836,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1698080456299"
 	},
 	{
@@ -860,7 +860,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1662113005199"
 	},
 	{
@@ -884,7 +884,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1696011687099"
 	},
 	{
@@ -908,7 +908,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1632052051299"
 	},
 	{
@@ -932,7 +932,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1640022530199"
 	},
 	{
@@ -956,7 +956,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1690061743299"
 	},
 	{
@@ -980,7 +980,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1658091564999"
 	},
 	{
@@ -1004,7 +1004,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1628090237199"
 	},
 	{
@@ -1028,7 +1028,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1628011972399"
 	},
 	{
@@ -1052,7 +1052,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1668010185999"
 	},
 	{
@@ -1076,7 +1076,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1615041760399"
 	},
 	{
@@ -1100,7 +1100,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1660022965299"
 	},
 	{
@@ -1124,7 +1124,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1661091803199"
 	},
 	{
@@ -1148,7 +1148,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1666050299499"
 	},
 	{
@@ -1172,7 +1172,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1674091200599"
 	},
 	{
@@ -1196,7 +1196,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1696042239399"
 	},
 	{
@@ -1220,7 +1220,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1630083025599"
 	},
 	{
@@ -1244,7 +1244,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1680112709399"
 	},
 	{
@@ -1268,7 +1268,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1629090395399"
 	},
 	{
@@ -1292,7 +1292,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1666030138899"
 	},
 	{
@@ -1316,7 +1316,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1669040773699"
 	},
 	{
@@ -1340,7 +1340,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1656031417099"
 	},
 	{
@@ -1364,7 +1364,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1693040535499"
 	},
 	{
@@ -1388,7 +1388,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1615081690999"
 	},
 	{
@@ -1412,7 +1412,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "African",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1660082848199"
 	},
 	{
@@ -1436,7 +1436,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1639111464999"
 	},
 	{
@@ -1460,7 +1460,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1693101879999"
 	},
 	{
@@ -1484,7 +1484,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1693120169899"
 	},
 	{
@@ -1508,7 +1508,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1641070672899"
 	},
 	{
@@ -1532,7 +1532,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1683061030399"
 	},
 	{
@@ -1556,7 +1556,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1611082164099"
 	},
 	{
@@ -1580,7 +1580,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1699092134199"
 	},
 	{
@@ -1604,7 +1604,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1602080115299"
 	},
 	{
@@ -1628,7 +1628,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1613051611999"
 	},
 	{
@@ -1652,7 +1652,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1655080632199"
 	},
 	{
@@ -1676,7 +1676,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1655051454199"
 	},
 	{
@@ -1700,7 +1700,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1642120307199"
 	},
 	{
@@ -1724,7 +1724,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1665091145699"
 	},
 	{
@@ -1748,7 +1748,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1654101437199"
 	},
 	{
@@ -1772,7 +1772,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Asian",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1624071972299"
 	},
 	{
@@ -1796,7 +1796,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1600021312399"
 	},
 	{
@@ -1820,7 +1820,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1680022050399"
 	},
 	{
@@ -1844,7 +1844,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1661021701699"
 	},
 	{
@@ -1868,7 +1868,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1683042472899"
 	},
 	{
@@ -1892,7 +1892,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1620032477499"
 	},
 	{
@@ -1916,7 +1916,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1633010581499"
 	},
 	{
@@ -1940,7 +1940,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1677121300299"
 	},
 	{
@@ -1964,7 +1964,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1655062354099"
 	},
 	{
@@ -1988,7 +1988,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1620021300299"
 	},
 	{
@@ -2012,7 +2012,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "British",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1676032985599"
 	},
 	{
@@ -2036,7 +2036,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "British",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1673100393599"
 	},
 	{
@@ -2060,7 +2060,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1603040930799"
 	},
 	{
@@ -2084,7 +2084,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1656080607699"
 	},
 	{
@@ -2108,7 +2108,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1661101980199"
 	},
 	{
@@ -2132,7 +2132,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1629100493999"
 	},
 	{
@@ -2156,7 +2156,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Asian",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1656122676399"
 	},
 	{
@@ -2180,7 +2180,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1619062064099"
 	},
 	{
@@ -2204,7 +2204,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "African",
-		"MartialStatus": "Common-Law",
+		"MaritalStatus": "Common-Law",
 		"SellerID": "1607121714399"
 	},
 	{
@@ -2228,7 +2228,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1662030410699"
 	},
 	{
@@ -2252,7 +2252,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1609061799599"
 	},
 	{
@@ -2276,7 +2276,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Divorced",
+		"MaritalStatus": "Divorced",
 		"SellerID": "1689051581999"
 	},
 	{
@@ -2300,7 +2300,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1659072191199"
 	},
 	{
@@ -2324,7 +2324,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "American",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1645111021899"
 	},
 	{
@@ -2348,7 +2348,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "American",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1642102338099"
 	},
 	{
@@ -2372,7 +2372,7 @@
 		"MortgageType": "InterestOnly",
 		"ResidentialStatus": "Tenent",
 		"Nationality": "Eurpoean",
-		"MartialStatus": "Married",
+		"MaritalStatus": "Married",
 		"SellerID": "1625101641099"
 	},
 	{
@@ -2396,7 +2396,7 @@
 		"MortgageType": "Repayment",
 		"ResidentialStatus": "HomeOwner",
 		"Nationality": "Asian",
-		"MartialStatus": "Single",
+		"MaritalStatus": "Single",
 		"SellerID": "1673082883599"
 	}
 ]
