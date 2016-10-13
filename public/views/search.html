@@ -1,6 +1,6 @@
 <div>
     <div ng-show="loading">
-        <img src="/images/ajax-loader.gif" class="center-block" />
+        <img src="/images/ajax-loader.gif" class="" />
     </div>
 
     <div ng-show="error">
@@ -10,11 +10,12 @@
     <div class="well search_container" ng-show="!loading">
         <div class="custom-search-input">
             <div class="input-group col-md-12">
-                <input type="text" class="search-query form-control" placeholder="Search" id="searchBox" ng-model="searchQuery" ng-keyup="searchData()" />
+                <input type="text" class="search-query form-control" placeholder="Search Customer Data" id="searchBox" ng-model="searchQuery" ng-keyup="searchData()"
+                />
                 <span class="input-group-btn">
                     <button class="btn" type="button" ng-click="searchData()">
                         <span class="glyphicon glyphicon-search"></span>
-                    </button>
+                </button>
                 </span>
             </div>
         </div>
@@ -26,5 +27,52 @@
             <span class="search_result_title">{{listItem.UserFirstName + ' '+listItem.UserSurname}}</span>
         </div>
     </div>
+</div>
 
+<br><br>
+
+<div class="jumbotron">
+    <h1 class="black">Well Done, Kate!</h1>
+    <h2>You have protected <span class="label label-info">20</span> Customers in the last month!</h2>
+</div>
+
+</div>
+<div class="page-header">
+  <h3>Read testimonials from your customers</h3>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/images/happy4.jpeg" alt="...">
+            <div class="caption">
+                <h3>Darryl & Jane</h3>
+                                <p> The personnel taken care of our questions promptly and with professionalism.</p>
+
+                <p> <a href="#" class="btn btn-default" role="button">Read More...</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/images/happy2.jpeg" alt="...">
+            <div class="caption">
+                <h3>Robert Middleton</h3>
+                <p>I appreciated your knowledge and ease in answering our questions</p>
+                <p> <a href="#" class="btn btn-default" role="button">Read More...</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/images/happy1.jpeg" alt="...">
+            <div class="caption">
+                <h3>Linda Prestidge</h3>
+                <p>Thank you for the guidance with tailoring the right protection with, great personal customer service.</p>
+                <p> <a href="#" class="btn btn-default" role="button">Read More...</a></p>
+            </div>
+        </div>
+    </div>
 </div>

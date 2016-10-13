@@ -4,7 +4,7 @@ html,body {
     height: 100%;
     margin: 0 auto;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    color: #ffffff;
+    color: black;
 }
 
 a {
@@ -27,11 +27,18 @@ a:hover {
 h1 {
     font-weight: bold;
     font-size: 2em;
+    color: black;
+}
+
+.black {
+        color: black;
+
 }
 
 .leftHalf {
     float: left;
     background-color: #26343f;
+    color: white;
     width: 45%;
     height: 100%;
 }
@@ -40,6 +47,7 @@ h1 {
     float: right;
     width: 55%;
     background-color: #313f4a;
+    color: white;
     height: 100%;
     overflow:auto;
 }
@@ -111,6 +119,8 @@ pre {
     border-top-width: 0;
     cursor: pointer;
     padding: 4px;
+        color: white;
+
 }
 .search_result:hover {
     background: #556372;
@@ -133,6 +143,7 @@ pre {
 
 }
 
+
 .summary-div,
 .traits {
     color: #444;
@@ -141,4 +152,9 @@ pre {
 .clear-btn,
 .analysis-btn {
 
+}
+
+.logoLeft {
+    margin: 2em;
+    display: block;
 }
