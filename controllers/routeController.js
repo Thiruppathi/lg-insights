@@ -64,17 +64,48 @@
         app.get('/details/:id', function (req, res) {
             var author = fetchAuthor(req.params.id);
             console.log('Author', author);
+            getFigures(author);
             res.json({
                 details: {
                     "id": author._id,
-                    "fullName": author.UserFirstName + ' ' + author.UserSurname,
+                    "fullName": author.Title + " "+author.UserFirstName + ' ' + author.UserSurname,
+                    "UserFirstName": author.UserFirstName,
+                    "UserSurname": author.UserSurname,
+                    "UserDoB": author.UserDoB,
+                    "Gender": author.Gender,
+                    "CurrentAddress": author.CurrentAddress,
+                    "CurrentCity": author.CurrentCity,
+                    "CurrentRegion": author.CurrentRegion,
+                    "CurrentPostcode": author.CurrentPostcode,
+                    "Title": author.Title,
+                    "TelephoneMobile": author.TelephoneMobile,
+                    "TelephoneHome": author.TelephoneHome,
+                    "Email": author.Email,
+                    "UKResident": author.UKResident,
+                    "Salary": author.Salary,
+                    "MortgageTerm": author.MortgageTerm,
+                    "MortgageAmount": author.MortgageAmount,
+                    "MortgageType": author.MortgageType,
+                    "ResidentialStatus": author.ResidentialStatus,
+                    "Nationality": author.Nationality,
                     "MaritalStatus": author.MaritalStatus,
-                    "Email": author.Email
+                    "SellerID": author.SellerID,
                 }
             });
         });
 
+        function getFigures(author) {
+            var mortgageamount = author.MortgageAmount;
+            var salary = author.Salary;
+            var mortgagetype = author.MortgageType;
+            var mortgageterm = author.MortgageTerm;
+            var smoker = ["Yes"];
+            var smokerspremium = [50];
+            var dis = salary * 4;
 
+            var coverrequired = mortgageamount - dis;
+            var smokerpremium = coverrequired / 100 * smokerspremium + coverrequired;
+        }
         // app.get('/details/:id', function (req, res) {
         //     var author = fetchAuthor(req.params.id);
         //     console.log('Author', author);

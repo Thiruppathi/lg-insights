@@ -1,6 +1,6 @@
 [
 	{
-		"_id": "1",
+		"_id": 1,
 		"UserFirstName": "Thor",
 		"UserSurname": "Pearson",
 		"UserDoB": "15/08/79",

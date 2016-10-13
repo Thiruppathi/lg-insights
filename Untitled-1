@@ -1,0 +1,50 @@
+{
+		"author._id"
+		"author.UserFirstName"
+		"author.UserSurname"
+		"author.UserDoB"
+		"author.Gender"
+		"author.CurrentAddress"
+		"author.CurrentCity"
+		"author.CurrentRegion"
+		"author.CurrentPostcode"
+		"author.Title"
+		"author.TelephoneMobile"
+		"author.TelephoneHome"
+		"author.Email"
+		"author.UKResident"
+		"author.Salary"
+		"author.MortgageTerm"
+		"author.MortgageAmount"
+		"author.MortgageType"
+		"author.ResidentialStatus"
+		"author.Nationality"
+		"author.MaritalStatus"
+		"author.SellerID"
+	},
+
+    	{
+		"_id": 2,
+		<p><span>UserFirstName </span>{{details.UserFirstName}}</p>
+		<p><span>UserSurname </span>{{details.UserSurname}}</p>
+		<p><span>UserDoB </span>{{details.UserDoB}}</p>
+		<p><span>Gender </span>{{details.Gender}}</p>
+		<p><span>CurrentAddress </span>{{details.CurrentAddress}}</p>
+		<p><span>CurrentCity </span>{{details.CurrentCity}}</p>
+		<p><span>CurrentRegion </span>{{details.CurrentRegion}}</p>
+		<p><span>CurrentPostcode </span>{{details.CurrentPostcode}}</p>
+		<p><span>Title </span>{{details.Title}}</p>
+		<p><span>TelephoneMobile </span>{{details.TelephoneMobile}}</p>
+		<p><span>TelephoneHome </span>{{details.TelephoneHome}}</p>
+		<p><span>Email </span>{{details.Email}}</p>
+		<p><span>UKResident </span>{{details.UKResident}}</p>
+		<p><span>Salary </span>{{details.Salary}}</p>
+		<p><span>MortgageTerm </span>{{details.MortgageTerm}}</p>
+		<p><span>MortgageAmount </span>{{details.MortgageAmount}}</p>
+		<p><span>MortgageType </span>{{details.MortgageType}}</p>
+		<p><span>ResidentialStatus </span>{{details.ResidentialStatus}}</p>
+		<p><span>Nationality </span>{{details.Nationality}}</p>
+		<p><span>MaritalStatus</span>{{details.MaritalStatus}	}</p>
+        <p><span>SellerID </span>{{details.SellerID}}</p>
+	},
+		
