@@ -9,7 +9,8 @@
     "body-parser": "*",
     "cfenv": "1.0.x",
     "cloudant": "^1.5.1",
-    "express": "4.12.x"
+    "express": "4.12.x",
+    "promise": "^7.1.1"
   },
   "repository": {},
   "engines": {
