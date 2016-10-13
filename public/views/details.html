@@ -7,11 +7,11 @@
     </div>
 
     <div class="details_title">
-        <h3>{{details.title}}</h3>
+        <h3>{{details.id}}</h3>
         <hr>
     </div>
     <div class="details_content">
-        <p>{{details.content}}</p>
+        <p>{{details.title}}</p>
         <button class="btn btn-lg btn-primary" ng-click="analyzeText()" ng-disabled="analyzing">Analyze</button>
       
         <img ng-show="analyzing" src="/images/watson.gif" alt="Analyzing"/>

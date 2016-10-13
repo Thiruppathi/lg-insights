@@ -47,10 +47,10 @@
                 $scope.searchData = function () {
                     DataService.search($scope.searchQuery, function (data) {
                         $timeout(function () {
-                            _data = data.map(function(x) {
-                                return JSON.parse(x);
-                            })
-                            $scope.searchResults = _data;
+                            // _data = data.map(function(x) {
+                            //     return JSON.parse(x);
+                            // })
+                            $scope.searchResults = data;
                             console.log($scope.searchResults);
                         });
                     });
@@ -58,6 +58,7 @@
 
                 $scope.changeView = function (pageName, id) {
                     id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'string' ? id : '';
+                    id = typeof id === 'number' ? id.toString() : id;
                     $location.path('/' + pageName + '/' + id);
                 };
 
@@ -75,6 +76,7 @@
                 DataService.getDetails($routeParams.id, function (success, data) {
                     $scope.loading = false;
                     if (success) {
+                        console.log(data.details);
                         $scope.details = data.details;
                     } else {
                         $scope.error = data;
@@ -207,7 +209,7 @@
                         query = query.toLowerCase();
                         res(searchData.filter(function (value) {
                             if (count > 9) { return; }
-                            value = JSON.parse(value);
+                            // value = JSON.parse(value);
                             value = value.UserSurname.toLowerCase();
                             if (value.indexOf(query) > -1) {
                                 count++;
@@ -223,6 +225,7 @@
                         $http.get(location.origin + '/details/' + id)
                             .success(function (data) {
                                 if (data.details) {
+                                    console.log(data.details);
                                     res(true, data);
                                 } else {
                                     res(false, data.error || 'Error fetching search details');

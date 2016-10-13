@@ -126,10 +126,11 @@ pre {
 }
 
 .details_title {
-
+    color: black;
 }
 .details_content {
-    
+        color: black;
+
 }
 
 .summary-div,
