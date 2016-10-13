@@ -158,3 +158,11 @@ pre {
     margin: 2em;
     display: block;
 }
+
+input[type=radio] {
+    margin: 4px 0 0;
+    margin: 0.5em;
+    padding-right: 1em;
+    line-height: normal;
+}
+
